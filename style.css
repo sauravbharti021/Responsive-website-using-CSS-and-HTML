@@ -1,0 +1,491 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Baloo Bhai', 'Cursive';
+    ;
+    height: 1794px;
+    ;
+}
+
+
+:root {
+    --navbar-height: 59px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 4;
+    opacity: 0.8;
+}
+
+
+#navbar::before {
+    display: flex;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+}
+
+.container {
+
+    /* border: 4px solid green; */
+    display: flex;
+    flex-direction: row;
+    height: 81px;
+    width: 99.7vw;
+    /* justify-content: space-between; */
+
+}
+
+
+
+.logo img {
+    padding-left: 3px;
+    height: 80px;
+    width: 80px;
+    opacity: 0.9;
+}
+
+.container ul {
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container ul li {
+    list-style: none;
+    color: white;
+
+}
+
+.container ul li a {
+    padding: 3px 20px;
+    margin: 6px;
+    text-decoration: none;
+
+    color: white;
+
+}
+
+.container ul li a:hover {
+    color: rgb(192, 151, 40);
+    /* border: 2px solid gray; */
+    background-color: grey;
+    ;
+    border-radius: 6px;
+}
+
+/* Home */
+#home::before {
+    display: flex;
+    background: url(../images/skysports-stephen-curry-golden-state-warriors_5611781.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    padding-top: 50px;
+}
+
+#home p {
+
+    color: darkmagenta;
+    font-size: 20px;
+}
+
+#home .primary {
+    font-size: 50px;
+}
+
+
+#home .btn {
+    border: 0px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#home .btn:hover {
+    background-color: grey;
+}
+
+#home .btn a {
+    color: orangered;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+/* Served */
+
+
+h1.primary2 {
+    /* border: 10px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+    text-decoration: underline;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 51px;
+    background-color: blue;
+    width: 96.5%;
+    margin-left: 25.8px;
+    border-radius: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid orange;
+    background-color: wheat;
+    border-radius: 10px;
+    width: 431px;
+    z-index: 3;
+    /* padding-bottom: 20px; */
+}
+
+.box img {
+    width: 250px;
+    height: 215px;
+
+    /* border: 6px solid black; */
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box .secondary {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.box .match {
+    text-decoration: underline;
+}
+
+.box .btn {
+    border: 0px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.box .btn:hover {
+    background-color: grey;
+}
+
+.box .btn a {
+    color: orangered;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.box1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid orange;
+    background-color: wheat;
+    border-radius: 10px;
+    width: 431px;
+    z-index: 3;
+    /* padding-bottom: 20px; */
+}
+
+.box1 img {
+    width: 250px;
+    height: 215px;
+    border-radius: 5px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box1 .secondary {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.box1 .match {
+    text-decoration: underline;
+}
+
+.box1 .btn {
+    border: 0px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.box1 .btn:hover {
+    background-color: grey;
+}
+
+.box1 .btn a {
+    color: orangered;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.box2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid orange;
+    background-color: wheat;
+    border-radius: 10px;
+    width: 431px;
+    z-index: 3;
+    /* padding-bottom: 20px; */
+}
+
+.box2 img {
+    width: 250px;
+    height: 215px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box2 .secondary {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.box2 .match {
+    text-decoration: underline;
+}
+
+.box2 .btn {
+    border: 0px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.box2 .btn:hover {
+    background-color: grey;
+}
+
+.box2 .btn a {
+    color: orangered;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.who {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* ///////////////////////////////////////////////////////////////// */
+
+#services {
+    margin-top: 15px;
+    ;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+
+#services {
+    background-color: gold;
+
+}
+
+.clients::before {
+    display: flex;
+    background: url(../images/championship.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 868px;
+    left: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+    margin-top: 15px;
+
+}
+
+.clients {
+    margin-top: 20px;
+}
+
+.clients h1.primary3 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    color: brown;
+    text-decoration: underline;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 51px;
+    background-color: greenyellow;
+    width: 93.5%;
+    margin-left: 47.8px;
+    border-radius: 10px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.boxes .boxy1 img {
+
+    /* border: 2px solid green; */
+    width: 130px;
+    height: 270px;
+}
+
+.boxes .boxy2 img {
+    height: 270px;
+    ;
+}
+
+.boxes .boxy3 img {
+    height: 270px;
+    ;
+}
+
+.boxy1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid orange;
+    background-color: white;
+    border-radius: 10px;
+    height: 314px;
+    width: 431px;
+}
+
+.boxy2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid orange;
+    background-color: white;
+    border-radius: 10px;
+    height: 314px;
+    width: 431px;
+}
+
+.boxy3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid orange;
+    background-color: white;
+    border-radius: 10px;
+    height: 314px;
+    width: 431px;
+}
+
+/* //////////////////////////////////contact section  */
+
+.contact::before {
+    background: url(../images/background-2722851__340.jpg) no-repeat center center/ cover;
+    position: absolute;
+    top: 1604px;
+    left: 0;
+    content: "";
+    height: 201px;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.contact {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact img {
+    width: 300px;
+    height: 74px;
+
+}
+
+#contact-box {
+    display: flex;
+}
+
+.form-group input {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+}
+
+input[value="Submit"] {
+    margin-top: 2px;
+    display: flex;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    background-color: grey;
+    color: white;
+}
+input[value="Submit"]:hover{
+    
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+
+footer {
+    margin-top: 2px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}

@@ -92,7 +92,7 @@ body {
 /* Home */
 #home::before {
     display: flex;
-    background: url(../images/skysports-stephen-curry-golden-state-warriors_5611781.jpg) no-repeat center center/cover;
+    background: url("../images/skysports-stephen-curry-golden-state-warriors_5611781.jpg") no-repeat center center/cover;
     position: absolute;
     top: 0px;
     left: 0;

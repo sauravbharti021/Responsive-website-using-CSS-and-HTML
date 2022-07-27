@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"  media="screen and (max-width :1300px)" href="Mobile.css">
+  <link rel="stylesheet"  media="screen and (max-width :594px)" href="Mobile2.css">
+  <title>Chef Curry Restaurant</title>
+  <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap" rel="stylesheet">
+  <style>
+
+  </style>
+
+</head>
+
+<body>
+  <nav id="navbar">
+
+
+    <div class="container">
+
+      <div class="logo">
+        <img src="logopng.png" alt="Steph Curry sucks!!">
+      </div>
+
+
+      <ul>
+        <li class="item"><a href="http://google.com">Home</a></li>
+        <li class="item"><a href="#">Services</a></li>
+        <li class="item"><a href="#">About us</a></li>
+        <li class="item"><a href="#">Contact us</a></li>
+      </ul>
+      <!-- <p>This is not a joke.</p> -->
+
+
+    </div>
+  </nav>
+
+  <section id="home">
+    <h1 class="primary">
+      Welcome to Curry's Joint.
+    </h1>
+    <p>Here, you can see who got owned and when?</p>
+    <p class="p2">Doubters are now gone.</p>
+    <button class="btn"> <a href="https://www.youtube.com/watch?v=1hDZoz3EwCY" alt="You screwed!!" target="_blank">Watch
+        Compilation</a> </button>
+  </section>
+
+
+  <section class="services-container">
+    <h1 class="primary2">
+      Teams Served!!
+    </h1>
+    <div id="services">
+
+      <div class="box">
+        <h2 class="secondary">
+          Memphis Grizziles
+        </h2>
+        <img src="kindpng_2568522 (1).png">
+        <h3 class="match">2022 Western Conference Semifinal </h3>
+        <h3 class="who">Grizilles vs Warriors</h3>
+        <h3 class="match"> GSW wins 4-2 </h3>
+        <h4>Series leader</h4>
+        <p class="p1">Ja Morant- 33.3 PPG, 6.7 RPG, 8.3 APG</p>
+        <p class="p1">Stephen Curry- 28.6 PPG, 4.8 RPG, 5.8 APG</p>
+
+        <button class="btn"> <a href="https://www.youtube.com/watch?v=8HCAbHd-4hQ" alt="You screwed!!"
+            target="_blank">Watch Highlights</a> </button>
+
+      </div>
+
+
+      <div class="box1">
+        <h2 class="secondary">
+          Dallas Mavericks
+        </h2>
+        <img src="dallaslogo.png">
+        <h3 class="match">2022 Western Conference final </h3>
+        <h3 class="who">Mavericks vs Warriors</h3>
+        <h3 class="match"> GSW wins 4-1 </h3>
+        <h4>Series leader</h4>
+        <p class="p1">Luka Doncic- 32.0 PPG, 9.2 RPG, 6.0 APG</p>
+        <p class="p1">Stephen Curry- 23.8 PPG, 6.6 RPG, 7.4 APG</p>
+
+        <button class="btn"> <a href="https://www.youtube.com/watch?v=GpTy8lB7G5k" alt="You screwed!!"
+            target="_blank">Watch Highlights</a> </button>
+
+      </div>
+
+      <div class="box2">
+        <h2 class="secondary">
+          Boston Celtics
+        </h2>
+        <img src="Celtics2.png">
+        <h3 class="match">2022 NBA Championship</h3>
+        <h3 class="who">Celtics vs Warriors</h3>
+        <h3 class="match"> GSW wins 4-2 </h3>
+        <h4>Series leader</h4>
+        <p class="p1">Jaylen Brown- 23.5 PPG, 7.3 RPG, 3.7 APG</p>
+        <p class="p1">Stephen Curry- 32.2 PPG, 6.0 RPG, 5.0 APG</p>
+
+        <button class="btn"> <a href="https://www.youtube.com/watch?v=3MBv6PIsCBg" alt="You screwed!!"
+            target="_blank">Watch Highlights</a> </button>
+
+      </div>
+
+
+
+    </div>
+
+  </section>
+
+  <section class="clients">
+    <h1 class="primary3">Our trophies</h1>
+
+    <div class="boxes">
+      <div class="boxy1">
+
+        <img src="pinpng.com-nba-trophy-png-1367739.png">
+        <div class="para1">
+          NBA CHAMPIONSHIP
+        </div>
+      </div>
+
+      <div class="boxy2">
+
+        <img src="finalfinal.png">
+        <div class="para1">
+          NBA FINALS MVP
+        </div>
+      </div>
+
+      <div class="boxy3">
+
+        <img src="Tiffan_NBA_OscarRobertson222.png">
+        <div class="para1">
+          EASTERN CONFERENCE MVP
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- //////////////////////////////////////////////////// -->
+  <section class="contact">
+    <img src="contactus.png" alt="Go back">
+
+    <h1>To get added in his fanclub.</h1>
+    <div id="contact-box">
+      <form action="backend.php">
+
+        <div class="form-group">
+          <label for="name">Name :</label>
+          <input type="text" name="name" id="name" placeholder="Enter your name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email :</label>
+          <input type="email" name="name" id="email" placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message :</label>
+          <textarea type="message" name="name" id="message" rows="10" cols="30"
+            placeholder="Enter your message"></textarea>
+        </div>
+
+        <div class="form-group">
+          <input type="Submit" name="Submit" value="Submit">
+        </div>
+
+
+      </form>
+    </div>
+
+  </section>
+
+
+  <footer>
+    @Copyrighted | Saurav.com | All rights reserved
+  </footer>
+
+</body>
+
+</html>
